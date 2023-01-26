@@ -20,6 +20,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('exemplo de dados 2', 'exemplo de dados B'),
     ('exemplo de dados 3', 'exemplo de dados C');
 
+
   INSERT INTO SpotifyClone.tabela2 (coluna1, coluna2)
   VALUES
     ('exemplo de dados 1', 'exemplo de dados X'),
