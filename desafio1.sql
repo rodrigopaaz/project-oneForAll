@@ -60,7 +60,7 @@ FOREIGN KEY (artista_id) REFERENCES artista (artista_id)
 
 INSERT INTO SpotifyClone.artista (artista_id, artista)
 VALUES
-  (1, 'Beyoncè'),
+  (1, 'Beyoncé'),
   (2, 'Queen'),
   (3, 'Elis Regina'),
   (4, 'Baco Exu do Blues'),
@@ -69,13 +69,13 @@ VALUES
   
   INSERT INTO SpotifyClone.album (album_id, album, artista_id)
 VALUES
-  (1, 'Renaissanse', '1'),
+  (1, 'Renaissance', '1'),
   (2, 'Jazz', '2'),
   (3, 'Hot Space', '2'),
   (4, 'Falso Brilhante', '3'),
   (5, 'Vento de Maio', '3'),
-  (6, 'QVVJFA', '4'),
-  (7, 'Somewhere Far Beyo', '5'),
+  (6, 'QVVJFA?', '4'),
+  (7, 'Somewhere Far Beyond', '5'),
   (8, 'I Put A Spell On You', '6');
 
 INSERT INTO SpotifyClone.cancoes (cancao_id, cancao, duracao_segundos, ano_lancamento, artista_id, album_id)
