@@ -89,7 +89,7 @@ VALUES
   (7, "O Medo de Amar é o Medo de Ser Livre", 207, 2011, 3, 5),
   (8, "Samba em Paris", 267, 2003, 4, 6),
   (9, "The Bard's Song", 244, 2007, 5, 7),
-  (10, "Felling Good", 100, 2012, 6 ,8)
+  (10, "Feeling Good", 100, 2012, 6 ,8)
   ;
   
 INSERT INTO SpotifyClone.plano (plano_id, plano, valor_do_plano)
